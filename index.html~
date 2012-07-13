@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	  <meta charset="utf-8" />
+	  <title>FLISOL PASCO 2012</title>
+	  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	  <script type="text/javascript" src="js/jquery.js"></script>	  
+	  <script src="js/basic-jquery-slider.js"></script>
+
+	  <script type="text/javascript" src="js/jquery.functions.js"></script>
+	  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav>
+		<img src="img/logo.png" alt="">
+			<ul class="navigation">			
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#fecha">Fecha</a></li>
+				<li><a href="#temario">Temario</a></li>
+				<li><a href="#inscripcion">Inscripcion</a></li>
+			</ul>
+		</nav>
+	<div id="wrapper">	
+		<div id="main">	
+			<section id="inicio">				
+			<div id="my-slideshow">
+				<ul class="bjqs">
+					<li><img src="img/slide1.png"></li>
+					<li><img src="img/slide1.png"></li>
+				</ul>
+			</div>
+		
+			</section>
+			<div class="separation"><!--/--></div>
+			<section id="fecha">
+				<p class="texto textofondo">Sabado 28 de Abril 2012 
+					desde las 8:am</p>					
+					<p class="texto textofondo">Escuela de Sistemas y Computacion</p>
+					<p class="texto textofondo">Edificio bla bla bla</p>
+			</section>
+			<div class="separation"><!--/--></div>
+			<section id="temario">
+				<div class="temablock">
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<div style="clear:both"><!--/--></div>
+				</div>
+				<div class="temablock">
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<a class="tema" href="#">Tema 1</a>
+					<div style="clear:both"><!--/--></div>
+				</div>
+			</section>
+			<div class="separation"><!--/--></div>
+			<section id="inscripcion">
+				<p class="texto">Inscripcion</p>
+				<form>
+					<input type="text" placeholder="Nombres y Apellidos">
+					<input type="mail" placeholder="Correo Electronico">
+					<input type="text">
+					<input type="submit" value="Inscribirme">
+				</form>
+			</section>
+			<div class="separation"><!--/--></div>
+			<section id="auspiciadores">
+				<p class="texto">Auspiciadores</p>
+			</section>		
+	    </div><!--main-->
+	</div><!--wrapper-->
+</body>
+</html>

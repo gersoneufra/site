@@ -1,0 +1,219 @@
+/* HTML5 RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML5 RESET CSS */
+
+body{
+	font-family:'PT Sans',Helvetica,Sans-Serif;
+	font-size:16px;
+	background:url('../img/fondo.png');
+	color:#9F9F9F;
+}
+
+a{
+	text-decoration:none;
+	color:#9F9F9F;
+}
+.separation{
+	background:url('../img/separation.png');
+	height:14px;
+	margin:80px 0px;
+}
+#temario{
+	margin:0 auto;
+	width:768px;
+	margin-left:120px;
+}
+#temario a{
+	color:#fff;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+}
+.tema{
+	padding:35px;
+	background:#f65726;
+	float: left;
+	margin-right:10px;
+}
+.temablock{
+	margin-bottom:10px;
+
+}
+
+nav{
+	width:202px;
+	text-align:center;
+	float: left;
+	top:30px;
+	margin-left:150px;
+	position: fixed;
+}
+nav img{
+	margin-bottom: 10px;
+}
+
+#wrapper{
+	margin-bottom:10px;
+}
+#main{
+	width:758px;
+	overflow: visible;
+	padding: 0;
+	margin:0 auto;
+	padding-left:100px;
+	text-align: center;
+}
+section{
+	height:auto;
+	margin:0 auto;
+	margin:20px 0px;
+}
+
+.navigation{
+	width:114px;
+	background:#2a2a2a;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	margin:0 auto;
+	padding:7px 0px;
+}
+	.navigation a{
+		color:#fff;
+		padding:5px 5px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-o-border-radius:3px;
+		transition:all 0.2s ease-out;
+		-webkit-transition:all 0.2s ease-out;
+	}
+	.navigation a:hover{
+		background:#d0d0d0;
+		color:#2a2a2a;
+	}
+	.navigation li{		
+		margin:19px 0px;
+	}
+.texto{
+	font-size:33px;
+	color:#9f9f9f;
+	text-shadow: rgba(255, 255, 255, 0.9) 0 1px;
+}
+#fecha{
+	transition:all 0.2s ease-out;
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+}
+
+.textofondo{
+	background:#979797;
+	margin-bottom:3px;
+	width:auto;
+	display: inline-block;
+	color:#fff;
+	text-shadow:none;
+	padding:6px;
+}
+
+#fecha:hover{
+	-webkit-transform:rotate(-2deg) scale(1.2) translate(70px, -2px);
+	cursor: default;
+}
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{display:none;position:absolute;}
+
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;margin-top:20px;padding-left:300px;}
+
+ol.bjqs-markers{list-style:none;margin:0;padding:0;z-index:9999;}
+ol.bjqs-markers li{float:left;}
+
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+/* demo styles */
+
+.bjqs-next{
+	background:#18c16c;
+	color:#fff;
+	padding:8px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	margin-right:8px;
+	transition:all 0.2s ease-out;
+	-webkit-transition:all 0.2s ease-out;
+
+}
+
+.bjqs-controls li{
+	float: left;
+	display: block;
+}
+.bjqs-prev{
+	background:#18c16c;
+	color:#fff;
+	padding:8px;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-o-border-radius:3px;
+		transition:all 0.2s ease-out;
+		-webkit-transition:all 0.2s ease-out;
+}
+
+.bjqs-next:hover,.bjqs-prev:hover {
+	background:#10b160;
+}
+
